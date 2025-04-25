@@ -9,8 +9,8 @@ public class Main {
 
         System.out.println("Tipo de conta (1 - Corrente | 2 - Poupança):");
         int tipo = scanner.nextInt();
-        scanner.nextLine(); // limpar buffer
-
+        scanner.nextLine(); 
+        
         ContaBancaria conta;
         if (tipo == 1) {
             conta = new ContaCorrente(nomeTitular);
